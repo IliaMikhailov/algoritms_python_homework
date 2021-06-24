@@ -30,6 +30,7 @@ def find_mediane(arr):
 x = new_array(25)
 print(x)
 print(find_mediane(x))
+#проверяем правильность нахождения медианы
 x.sort()
 print(x)
 print(x[len(x) // 2])
